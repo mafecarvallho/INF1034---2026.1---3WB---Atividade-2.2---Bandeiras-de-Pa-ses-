@@ -241,4 +241,63 @@ for _ in range(3):
 c.end_fill()
 
 
+# Bandeira de senegal
+
+c.color('yellow')
+c.pu()
+c.goto(-150,0)
+c.down()
+
+c.begin_fill()
+for _ in range(2):
+    c.fd(300)
+    c.left(90)
+    c.fd(200)
+    c.left(90)
+
+c.end_fill()
+
+c.pu()
+c.goto(-50, 0)
+c.down()
+
+c.begin_fill()
+c.fillcolor('green')
+
+for _ in range(2):
+    c.left(90)
+    c.fd(200)
+    c.left(90)
+    c.fd(100)
+
+c.end_fill()
+
+c.pu()
+c.goto(150, 0)
+c.down()
+c.begin_fill()
+c.fillcolor('red')
+
+for _ in range(2):
+    c.left(90)
+    c.fd(200)
+    c.left(90)
+    c.fd(100)
+
+c.end_fill()
+
+c.pu()
+c.goto(-25, 100)
+c.color('green')
+
+c.begin_fill()
+c.fillcolor('green')
+
+for _ in range(5):
+    c.fd(50)
+    c.left(120)
+c.end_fill()
+
+
+
 mainloop()
