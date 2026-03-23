@@ -198,6 +198,7 @@ c.clear()
 
 # Bandeira de bahamas
 
+c.right(180)
 c.pu()
 c.goto(-150 , 0)
 c.down()
@@ -238,11 +239,6 @@ for _ in range(3):
     c.fd(210)
     c.right(120)
 c.end_fill()
-
-sleep(5)
-c.clear()
-
-
 
 
 mainloop()
